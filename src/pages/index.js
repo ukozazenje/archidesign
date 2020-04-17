@@ -1,72 +1,30 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
-
+import React from 'react'
+import Layout from '../components/layout'
+const Index = () => {
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <Bio />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-        )
-      })}
+    <Layout page="home" phoneColor="white">
+      <section className="home-section">
+        <div className="container is-fluid">
+          <div className="columns">
+            <div className="column home-content">
+              <div className="heading">
+                <h1 className="text-shadowed" >ŠTA NUDIMO</h1>
+                <h3>kvalitet i profesionalni pristup u poslu</h3>
+              </div>
+              <div className="heading">
+                <h1>IZA NAS OSTAJU</h1>
+                <h3>ekološki oslobođen prostor i uspešno obavljeni poslovi</h3>
+              </div>
+              <div className="heading">
+                <h1>TIM</h1>
+                <h3>stručan i odgovoran</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   )
 }
 
-export default BlogIndex
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
-        }
-      }
-    }
-  }
-`
+export default Index

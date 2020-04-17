@@ -1,0 +1,87 @@
+header 
+  background: transparent
+  +widescreen 
+    background: url('../images/header.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+    height: 80px 
+    font-family: 'Open Sans'
+    position: relative
+  .navigation
+    display: flex
+    align-items: center
+    height: 80px
+    justify-content: space-between
+    +widescreen 
+      justify-content: flex-start
+    .phone-wrapper 
+      text-align: right
+      width: 180px
+      +widescreen
+        width: 20%
+      &.orange 
+        margin-right: -32px
+        text-align: center
+        background: url('../images/phone-orange-background.svg')
+        +widescreen  
+          background: transparent
+      &.white 
+        margin-right: -32px
+        text-align: center
+        background: url('../images/phone-white-background.svg')
+        +widescreen  
+          background: transparent
+      a 
+        color: #333 
+        position: relative
+        &:before 
+          display: none 
+          +widescreen
+            display: block
+            content: ""
+            background: url("../images/phone.png")
+            height: 34px
+            width: 34px
+            position: absolute
+            left: -50px
+    nav
+      display: none
+      +widescreen
+        display: block
+        width: 70%
+      a 
+        margin-right: 30px
+        color: #fff
+    .logo
+      display: none
+      +widescreen
+        display: block
+        width: 10%
+      img 
+        width: 78px
+  .mobile-navigation
+    height: 0px
+    background: #fff
+    position: absolute
+    top: 80px
+    padding: 0 24px
+    transition: height .350s ease
+    width: 100%
+    z-index: 99
+    overflow: hidden 
+    &.active 
+      height: 350px
+    nav 
+      align-items: center
+      justify-content: space-around
+      display: flex
+      flex-direction: column 
+      height: 100%
+      a 
+        font-size: 1.5rem
+        color: #333 
+  .mobile-logo
+    min-width: 80px
+    +widescreen 
+      display: none
