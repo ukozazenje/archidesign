@@ -5,7 +5,7 @@ import TamaraImg from '../images/tamara.png'
 
 const Onama = () => {
   const [ onama, setOnama ] = useState(true)
-  const [ odgovornost, setOdgovornost ] = useState(false)
+  const [ odgovornost, setOdgovornost ] = useState(true)
   const [ saradnja, setSaradnja ] = useState(false)
   return (
       <Layout page="onama" phoneColor="white">

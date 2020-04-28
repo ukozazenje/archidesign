@@ -124,7 +124,7 @@ const Galerija = () => {
         </div>
       </section>
       {/* <Testing /> */}
-      <ModalVideo channel='youtube' isOpen={isOpenBanja} videoId='L61p2uyiMSo' onClose={() => setOpenBanja(false)} />
+      <ModalVideo channel='youtube' isOpen={isOpenBanja} videoId='Tg9zx8Hz844' onClose={() => setOpenBanja(false)} />
       {isOpenBunari && (
           <Lightbox
             mainSrc={bunari[photoIndex]}

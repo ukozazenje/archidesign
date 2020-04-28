@@ -43,26 +43,36 @@ const Tim = () => {
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim1} />
+                  <p>NEBOJŠA RRČEVIĆ<br />
+                    ŠEF GRADILIŠTA</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim2} />
+                  <p>BOJAN GICIĆ<br />
+                  DIREKTOR</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim3} />
+                  <p>ZORAN PETROVIĆ<br />
+                  MENADZMENT</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim4} />
+                  <p>VASKO KORAĆ<br />
+                    ŠEF GRADILIŠTA</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim5} />
+                  <p>JANKO ĐOKOVIĆ<br />
+                  ŠEF MAGACINA</p>
                 </div>
               </div>
             </Slider>
@@ -72,26 +82,36 @@ const Tim = () => {
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim2} />
+                  <p>BOJAN GICIĆ<br />
+                  DIREKTOR</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim3} />
+                  <p>ZORAN PETROVIĆ<br />
+                  MENADZMENT</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim1} />
+                  <p>NEBOJŠA RRČEVIĆ<br />
+                    ŠEF GRADILIŠTA</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim4} />
+                  <p>VASKO KORAĆ<br />
+                    ŠEF GRADILIŠTA</p>
                 </div>
               </div>
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim5} />
+                  <p>JANKO ĐOKOVIĆ<br />
+                  ŠEF MAGACINA</p>
                 </div>
               </div>
             </Slider>

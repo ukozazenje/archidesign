@@ -39,6 +39,14 @@ const Kontakt = () => {
                 </div>
                 <img src={Zoran} alt="Zoran" />
               </div>
+              <div className="contact-person">
+                <div className="contact-content">
+                  <div className="contact-data">
+                    <div className="name">Kancelarija</div>
+                  </div>
+                  <a className="phone" href="tel:38136201469">+ 381 36 201 469</a>
+                </div>
+              </div>
             </div>
             <div className="is-hidden-desktop">
               <div className="contact">

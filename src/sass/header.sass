@@ -1,12 +1,13 @@
 header 
   background: transparent
   +widescreen 
-    background: url('../images/header.png')
-    background-size: cover
-    background-repeat: no-repeat
-    background-position: center center
+    // background: url('../images/header.png')
+    // background-size: cover
+    // background-repeat: no-repeat
+    // background-position: center center
+    background-color: $orange
     height: 80px 
-    font-family: 'Open Sans'
+    font-family: 'Roboto'
     position: relative
   .navigation
     display: flex
@@ -17,24 +18,34 @@ header
       justify-content: flex-start
     .phone-wrapper 
       text-align: right
-      width: 180px
-      +widescreen
+      width: 60px
+      display: flex
+      flex-direction: row
+      height: 25px
+      justify-content: space-between
+      +fullhd
         width: 20%
-      &.orange 
-        margin-right: -32px
-        text-align: center
-        background: url('../images/phone-orange-background.svg')
-        +widescreen  
-          background: transparent
-      &.white 
-        margin-right: -32px
-        text-align: center
-        background: url('../images/phone-white-background.svg')
-        +widescreen  
-          background: transparent
-      a 
+        justify-content: flex-end
+      // &.orange 
+      //   margin-right: -32px
+      //   text-align: center
+      //   background: url('../images/phone-orange-background.svg')
+      //   +widescreen  
+      //     background: transparent
+      // &.white 
+      //   margin-right: -32px
+      //   text-align: center
+      //   background: url('../images/phone-white-background.svg')
+      //   +widescreen  
+      //     background: transparent
+      .call-icon 
+        height: 100%
+      .desktop-phone 
+        display: none
         color: #333 
-        position: relative
+        position: relative 
+        +fullhd 
+          display: initial
         &:before 
           display: none 
           +widescreen
@@ -84,4 +95,9 @@ header
   .mobile-logo
     min-width: 80px
     +widescreen 
+      display: none 
+
+  .burger-menu 
+    display: inline
+    +fullhd 
       display: none

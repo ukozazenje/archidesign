@@ -1,9 +1,13 @@
+body 
+  font-family: 'Roboto', 'sans-serif'
 h1 
   color: #fff
   font-size: 1.5rem 
   line-height: 1.1
+  font-weight: 600
+  text-transform: initial
   +desktop 
-    font-size: 3.125rem 
+    font-size: 2.75rem 
 
 h3 
   color: #fff
@@ -12,7 +16,7 @@ h3
   text-transform: lowercase
   line-height: 1
   +desktop 
-    font-size: 3rem
+    font-size: 2.5rem
 
 @media screen and (min-width: 1696px) 
   .container
@@ -21,10 +25,10 @@ h3
       margin: 0 auto
 
 .home
-  background: url("../images/home.png") 
+  background: url("../images/home-bg-mobile.png") 
   background-size: cover
   background-repeat: no-repeat
-  background-position: center center 
+  background-position: center bottom 
   +widescreen 
     background: transparent
 .home-section 
@@ -46,7 +50,13 @@ h3
       max-width: 560px
 
 .text-shadowed 
-  text-shadow: 2px 3px 6px #000
+  text-shadow: -3px 3px 5px rgba(0,0,0,0.15)
+.main-heading 
+  color: #fff 
+  font-weight: 900 
+  font-size: 3rem 
+  +fullhd 
+    font-size: 7rem
 
 footer
   height: 50px
@@ -59,14 +69,15 @@ footer
 
 
 .tim-section 
-  display: flex
-  justify-content: center
-  align-items: center
+  padding-top: 30px
   background: url("../images/tim-mobilni.png")
   background-position: center top
   background-size: cover 
   min-height: 80vh
   +tablet
+    display: flex
+    justify-content: center
+    align-items: center
     background: url("../images/tim.png")
     background-position: center center
     background-size: cover 
@@ -76,14 +87,18 @@ footer
     .slide-wrapper 
       width: 90%
       margin: 0 auto
+      p 
+        text-align: center
+        color: #ffffff
+        font-size: 1.125rem
     .slick-next 
       right: 30%
-      bottom: -20%
+      bottom: -15%
       top: initial
       transform: translateX(-50%) 
     .slick-prev
       left: 30%
-      bottom: -20%
+      bottom: -15%
       top: initial
       transform: translateX(-50%)
 
@@ -95,10 +110,17 @@ footer
       .slide-wrapper
         display: flex
         justify-content: center
-        align-items: center
+        align-items: center 
+        flex-direction: column
         height: 500px
         +fullhd
-          height: 635px
+          height: 750px
+        p 
+          text-align: center
+          color: #000 
+          font-size: 1rem 
+          +fullhd 
+            font-size: 1.5rem
         img
           height: 300px
           transition: .350s height ease 
@@ -114,7 +136,7 @@ footer
         .slide-wrapper
           height: 500px
           +fullhd
-            height: 635px
+            height: 750px
           img 
             height: 500px
             +fullhd 
@@ -194,7 +216,7 @@ footer
     margin: 15px auto
     +desktop
       flex-direction: row
-      font-size: 1.875rem
+      font-size: 1.75rem
       margin: 15px 0
     a
       color: #4a4a4a 
@@ -220,16 +242,18 @@ footer
     max-width: 360px 
     justify-content: space-between
     padding-bottom: 20px 
+    border-bottom: 1px solid #A1A1A1
     +desktop 
       margin: 20px 0
-    &:first-of-type
-      border-bottom: 1px solid #A1A1A1
-    
+    &:last-of-type 
+      border-bottom: 0
   .contact-content 
     display: flex 
     flex-direction: column 
     justify-content: space-between
     height: 111px
+    &:last-of-type 
+      height: 75px
     .contact-data
       .name 
         font-size: 1.625rem 
@@ -279,14 +303,23 @@ button
   cursor: pointer
 
 .about-us-section 
-  min-height: 600px
+  min-height: 900px
   +widescreen
     background: url("../images/onama-background.png")
     background-position: center center
     background-size: cover 
     text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
   +desktop 
-    padding-top: 150px 
+    // padding-top: 150px 
+  .columns:first-of-type
+    .column:last-of-type
+      justify-content: center
+      align-items: center
+      display: flex
+      flex-direction: column
   p 
     margin-bottom: 30px 
 
