@@ -21,7 +21,7 @@ const Header = ({phoneColor, hidePhone}) => {
           <AniLink cover bg="#E66412" to="/">Početna</AniLink>
           <AniLink cover bg="#E66412" to="/o-nama">O nama</AniLink>
           <AniLink cover bg="#E66412" to="/tim">Tim</AniLink>
-          <AniLink cover bg="#E66412" to="/galerija">Gaalerija</AniLink>
+          <AniLink cover bg="#E66412" to="/galerija">Galerija</AniLink>
           <AniLink cover bg="#E66412" to="/sertifikati">Sertifikati</AniLink>
           <AniLink cover bg="#E66412" to="/kontakt">Kontakt</AniLink>
         </nav>
@@ -45,7 +45,7 @@ const Header = ({phoneColor, hidePhone}) => {
           <AniLink cover bg="#E66412" to="/">Početna</AniLink>
           <AniLink cover bg="#E66412" to="/o-nama">O nama</AniLink>
           <AniLink cover bg="#E66412" to="/tim">Tim</AniLink>
-          <AniLink cover bg="#E66412" to="/galerija">Gaalerija</AniLink>
+          <AniLink cover bg="#E66412" to="/galerija">Galerija</AniLink>
           <AniLink cover bg="#E66412" to="/sertifikati">Sertifikati</AniLink>
           <AniLink cover bg="#E66412" to="/kontakt">Kontakt</AniLink>
         </nav>
