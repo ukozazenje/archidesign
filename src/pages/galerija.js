@@ -125,6 +125,7 @@ const Galerija = () => {
       </section>
       {/* <Testing /> */}
       <ModalVideo channel='youtube' isOpen={isOpenBanja} videoId='Tg9zx8Hz844' onClose={() => setOpenBanja(false)} />
+      <ModalVideo channel='youtube' isOpen={isOpenSkola} videoId='jYlzPyxQ_0U' onClose={() => setOpenSkola(false)} />
       {isOpenBunari && (
           <Lightbox
             mainSrc={bunari[photoIndex]}
@@ -208,9 +209,9 @@ const Galerija = () => {
             onMoveNextRequest={() =>
               setPhotoIndex((photoIndex + 1) % skola.length )
             }
-          />
+          /> */}
           
-        )} */}
+        )}
         
     </Layout>
     // <div>
