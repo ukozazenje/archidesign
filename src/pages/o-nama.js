@@ -35,7 +35,7 @@ i adaptacija poslovnih objekata.</p>
               <p>ARCHIDESIGN-ING PLUS  doo Kraljevo, je tokom svog
 poslovanja pokazalo veliku dozu društvene odgovornosti.
 Menadzment i zaposleni su se rado odazvali na mnoge
-zajedničke humanitarne akcije, te je predizeće pokazalo
+zajedničke humanitarne akcije, te je preduzeće pokazalo
 humanost darovanjem najboljih učenika za Svetosavske 
 proslave u više skola, izvođenjem radova koji nisu
 fakturisani pre svge na školskim objektima, kako i

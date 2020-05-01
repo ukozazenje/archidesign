@@ -98,26 +98,68 @@ const Galerija = () => {
             <div>
               <img src={raskaImg} onClick={() => setOpenRaska(true)} />
               <p>KON. SALA RAŠKA</p>
+              <ul>
+                <li><strong>Vrsta radova</strong> : Rekonstrukcija sale Opremanje I enterijerski radovi</li>
+                <li><strong>Godina izvođenja radova</strong> : 2018.</li>
+                <li><strong>Naručilac</strong> : Grasdska uprava Raška</li>
+                <li><strong>Opis</strong> : Od ruinirane sale napravljena lepotica- ponos raške sala
+za konfenrencije ali I za venčavanja</li>
+              </ul>
             </div>
             <div>
               <img src={josanickaImg} onClick={() => setOpenBanja(true)} />
               <p>JOŠANIČKA BANJA</p>
+              <ul>
+                <li><strong>Vrsta radova</strong> : Elektro instalacija jakee struje I telekomunikacija Vodovodne I kanalizacione instalacije sa sanitarijama</li>
+                <li><strong>Godina izvođenja radova</strong> : 2016.</li>
+                <li><strong>Naručilac</strong> : Turistička organizacija Raška</li>
+                <li><strong>Opis</strong> : Objekat od velikog kulturnog značaja. U zajedničkom
+nastupanju sa partnerom GZR Standard kompletno renoviran u novi moderni
+zdravstveni centar sa termo blokom I mini SPA centrom</li>
+              </ul>
             </div>
             <div>
               <img src={ribnicaImg} onClick={() => setOpenRibnica(true)} />
               <p>DOM KULTURE RIBNICA</p>
+              <ul>
+                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija I sanacija</li>
+                <li><strong>Godina izvođenja radova</strong> : 2016 I 2018.</li>
+                <li><strong>Naručilac</strong> : MZ Ribnica I Grad kraljevo Gradska Uprava</li>
+                <li><strong>Opis</strong> : Kompletna rekonstrukcija objekta po principu ključ u ruke</li>
+              </ul>
             </div>
             <div>
               <img src={skolaImg} onClick={() => setOpenSkola(true)} />
               <p>ELEKTRO TEHNIČKA ŠKOLA</p>
+              <ul>
+                <li><strong>Vrsta radova</strong> : Energetska sanacija objekra</li>
+                <li><strong>Godina izvođenja radova</strong> : 2019.</li>
+                <li><strong>Naručilac</strong> : Grad Kraljevo – gradska uprava</li>
+                <li><strong>Opis</strong> : Objekat koji ističenmo sa ponosom- radovi su obuhvatili
+izradu kompletne fasade od kamene vune, zamenu stolarije, automatizaciju instalacije
+grejanja , kao I kompletne limarske radove</li>
+              </ul>
             </div>
             <div>
               <img src={progorelicaImg} onClick={() => setOpenProgorelica(true)}/>
               <p>DOM KULTURE PROGORELICA</p>
+              <ul>
+                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija I sanacija</li>
+                <li><strong>Godina izvođenja radova</strong> : 2016 I 2018.</li>
+                <li><strong>Naručilac</strong> : MZ Ribnica I Grad kraljevo Gradska Uprava</li>
+                <li><strong>Opis</strong> : Kompletna rekonstrukcija objekta po principu ključ u ruke</li>
+              </ul>
             </div>
             <div>
               <img src={bunariImg} onClick={() => setOpenBunari(true)} />
               <p>KARAJUKIĆA BUNARI</p>
+              <ul>
+                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija I sanacija objekta pošte</li>
+                <li><strong>Godina izvođenja radova</strong> : 2018.</li>
+                <li><strong>Naručilac</strong> : JP POŠTA Srbije</li>
+                <li><strong>Opis</strong> : Za nas ne postoje nemoguće stavri- Od trošne brvnare sa
+kamenom I blatom do modernog objekta</li>
+              </ul>
             </div>
             
           </Slider>
@@ -182,50 +224,8 @@ const Galerija = () => {
             }
           />
         )}
-         {/* {isOpenBanja && (
-          <Lightbox
-            mainSrc={banja[photoIndex]}
-            nextSrc={banja[(photoIndex + 1) % banja.length]}
-            prevSrc={banja[(photoIndex + banja.length - 1) % banja.length]}
-            onCloseRequest={() => {setOpenBanja(false); setPhotoIndex(0)}}
-            onMovePrevRequest={() =>
-              setPhotoIndex((photoIndex + banja.length - 1) % banja.length )
-            }
-            onMoveNextRequest={() =>
-              setPhotoIndex((photoIndex + 1) % banja.length )
-            }
-          />
-          
-        )} */}
-        {/* {isOpenSkola && (
-          <Lightbox
-            mainSrc={skola[photoIndex]}
-            nextSrc={skola[(photoIndex + 1) % skola.length]}
-            prevSrc={skola[(photoIndex + skola.length - 1) % skola.length]}
-            onCloseRequest={() => {setOpenBanja(false); setPhotoIndex(0)}}
-            onMovePrevRequest={() =>
-              setPhotoIndex((photoIndex + skola.length - 1) % skola.length )
-            }
-            onMoveNextRequest={() =>
-              setPhotoIndex((photoIndex + 1) % skola.length )
-            }
-          /> */}
-          
-        )}
         
     </Layout>
-    // <div>
-    //     <button type="button" onClick={() => setOpenBunari(true)}>
-    //       Open bunari
-    //     </button>
-    //     <button type="button" onClick={() => setOpenRibnica(true)}>
-    //       Open ribnica
-    //     </button>
-
-
-
-    //     
-    //   </div>
   )
 }
 

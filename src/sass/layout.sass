@@ -152,7 +152,12 @@ footer
   background: url("../images/galerija-mobilni.png")
   background-position: center center
   background-size: cover 
-  min-height: 600px
+  min-height: 600px 
+  background-position-y: -100px
+  background-repeat: no-repeat
+  padding-bottom: 20px
+  ul 
+    margin-right: 15px
   +tablet
     min-height: 940px
     background: url("../images/galery.png")
@@ -168,9 +173,16 @@ footer
     +widescreen 
       max-width: 94% 
   .slick-next, .slick-prev
-    top: calc(50% - 40px)
+    top: calc(50% - 140px) 
+    +tablet
+      top: calc(50% - 40px)
+  .slick-prev
+    left: -45px
   .slick-prev:before, .slick-next:before
     font-size: 40px 
+  .slick-slide 
+    img 
+      margin-top: 70px
 
 .sertificat-section 
   background: none

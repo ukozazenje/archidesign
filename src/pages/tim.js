@@ -43,7 +43,7 @@ const Tim = () => {
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim1} />
-                  <p>NEBOJŠA RRČEVIĆ<br />
+                  <p>NEBOJŠA REČEVIĆ<br />
                     ŠEF GRADILIŠTA</p>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Tim = () => {
               <div>
                 <div className="slide-wrapper">
                   <img src={Tim1} />
-                  <p>NEBOJŠA RRČEVIĆ<br />
+                  <p>NEBOJŠA REČEVIĆ<br />
                     ŠEF GRADILIŠTA</p>
                 </div>
               </div>
