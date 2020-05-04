@@ -97,7 +97,7 @@ const Galerija = () => {
           <Slider {...settings}>
             <div>
               <img src={raskaImg} onClick={() => setOpenRaska(true)} />
-              <p>KON. SALA RAŠKA</p>
+              <p>KONFERENCIJSKA SALA RAŠKA</p>
               <ul>
                 <li><strong>Vrsta radova</strong> : Rekonstrukcija sale Opremanje I enterijerski radovi</li>
                 <li><strong>Godina izvođenja radova</strong> : 2018.</li>
@@ -108,7 +108,7 @@ za konfenrencije ali I za venčavanja</li>
             </div>
             <div>
               <img src={josanickaImg} onClick={() => setOpenBanja(true)} />
-              <p>JOŠANIČKA BANJA</p>
+              <p style={{textTransform: "uppercase"}}>baleološko KUPATILO JOŠANIČKA BANJA</p>
               <ul>
                 <li><strong>Vrsta radova</strong> : Elektro instalacija jakee struje I telekomunikacija Vodovodne I kanalizacione instalacije sa sanitarijama</li>
                 <li><strong>Godina izvođenja radova</strong> : 2016.</li>
@@ -130,7 +130,7 @@ zdravstveni centar sa termo blokom I mini SPA centrom</li>
             </div>
             <div>
               <img src={skolaImg} onClick={() => setOpenSkola(true)} />
-              <p>ELEKTRO TEHNIČKA ŠKOLA</p>
+              <p>ELEKTRO SAOBRAĆAJNA TEHNIČKA ŠKOLA "NIKOLA TESLA"</p>
               <ul>
                 <li><strong>Vrsta radova</strong> : Energetska sanacija objekra</li>
                 <li><strong>Godina izvođenja radova</strong> : 2019.</li>
