@@ -46,7 +46,7 @@ smo posebno ponosni.</p>
             { saradnja ? <div className="onama-content">
               <p style={{textAlign: 'left'}}>
                 <ol>
-                  <li>GRAD KRALJEVO - Gradska Uprava</li>
+                  <li>GRAD KRALJEVO - Gradska uprava</li>
                   <li>SPECIJALNA BOLNICA SOKO BANJA</li>
                   <li>SPECIJALNA BOLNICA OZREN - Sokobanja</li>
                   <li>MINISTARSTVO UNUTRAŠNJIH POSLOVA</li>
@@ -55,10 +55,10 @@ smo posebno ponosni.</p>
                   <li>TURISTIČKA ORGANIZACIJA RAŠKA</li>
                   <li>GRADSKA UPRAVA RAŠKA</li>
                   <li>SRBIJAVOZ AD</li>
-                  <li>KULTURNI CENTAR - Novi Pzar</li>
+                  <li>KULTURNI CENTAR - Novi Pazar</li>
                   <li>GRAD BEOGRAD - Gradska uprava</li>
                   <li>JP GRADSKO STAMBENO</li>
-                  <li>HELP LIFFE SRBIJA</li>
+                  <li>HELP LIFE SRBIJA</li>
                   <li>PRAVNI FAKULTET KRAGUJEVAC</li>
                   <li>JP URBANIZAM PANČEVO</li>
                 </ol>

@@ -102,15 +102,15 @@ const Galerija = () => {
                 <li><strong>Vrsta radova</strong> : Rekonstrukcija sale, opremanje i enterijerski radovi.</li>
                 <li><strong>Godina izvođenja radova</strong> : 2018.</li>
                 <li><strong>Naručilac</strong> : Grasdska uprava Raška</li>
-                <li><strong>Opis</strong> : Od ruinirane sale napravljena lepotica, ponos raške sala
-za konfenrencije ali i za venčavanja</li>
+                <li><strong>Opis</strong> : Od ruinirane sale napravljena lepotica, ponos Raške. Sala
+za konferencije ali i za venčavanja.</li>
               </ul>
             </div>
             <div>
               <img src={josanickaImg} onClick={() => setOpenBanja(true)} />
               <p style={{textTransform: "uppercase"}}>Baleološko kupatilo Jošanička Banja</p>
               <ul>
-                <li><strong>Vrsta radova</strong> : Elektro instalacija jake struje i telekomunikacija Vodovodne i kanalizacione instalacije sa sanitarijama.</li>
+                <li><strong>Vrsta radova</strong> : Elektro instalacija jake struje i telekomunikacija vodovodne i kanalizacione instalacije sa sanitarijama.</li>
                 <li><strong>Godina izvođenja radova</strong> : 2016.</li>
                 <li><strong>Naručilac</strong> : Turistička organizacija Raška.</li>
                 <li><strong>Opis</strong> : Objekat od velikog kulturnog značaja. U zajedničkom
