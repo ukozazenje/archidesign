@@ -97,68 +97,68 @@ const Galerija = () => {
           <Slider {...settings}>
             <div>
               <img src={raskaImg} onClick={() => setOpenRaska(true)} />
-              <p>KONFERENCIJSKA SALA RAŠKA</p>
+              <p style={{textTransform: "uppercase"}}>Konferencijska sala – Gradska uprava Raška</p>
               <ul>
-                <li><strong>Vrsta radova</strong> : Rekonstrukcija sale Opremanje I enterijerski radovi</li>
+                <li><strong>Vrsta radova</strong> : Rekonstrukcija sale, opremanje i enterijerski radovi.</li>
                 <li><strong>Godina izvođenja radova</strong> : 2018.</li>
                 <li><strong>Naručilac</strong> : Grasdska uprava Raška</li>
-                <li><strong>Opis</strong> : Od ruinirane sale napravljena lepotica- ponos raške sala
-za konfenrencije ali I za venčavanja</li>
+                <li><strong>Opis</strong> : Od ruinirane sale napravljena lepotica, ponos raške sala
+za konfenrencije ali i za venčavanja</li>
               </ul>
             </div>
             <div>
               <img src={josanickaImg} onClick={() => setOpenBanja(true)} />
-              <p style={{textTransform: "uppercase"}}>baleološko KUPATILO JOŠANIČKA BANJA</p>
+              <p style={{textTransform: "uppercase"}}>Baleološko kupatilo Jošanička Banja</p>
               <ul>
-                <li><strong>Vrsta radova</strong> : Elektro instalacija jakee struje I telekomunikacija Vodovodne I kanalizacione instalacije sa sanitarijama</li>
+                <li><strong>Vrsta radova</strong> : Elektro instalacija jake struje i telekomunikacija Vodovodne i kanalizacione instalacije sa sanitarijama.</li>
                 <li><strong>Godina izvođenja radova</strong> : 2016.</li>
-                <li><strong>Naručilac</strong> : Turistička organizacija Raška</li>
+                <li><strong>Naručilac</strong> : Turistička organizacija Raška.</li>
                 <li><strong>Opis</strong> : Objekat od velikog kulturnog značaja. U zajedničkom
 nastupanju sa partnerom GZR Standard kompletno renoviran u novi moderni
-zdravstveni centar sa termo blokom I mini SPA centrom</li>
+zdravstveni centar sa termo blokom i mini SPA centrom.</li>
               </ul>
             </div>
             <div>
               <img src={ribnicaImg} onClick={() => setOpenRibnica(true)} />
-              <p>DOM KULTURE RIBNICA</p>
+              <p style={{textTransform: "uppercase"}}>DOM KULTURE RIBNICA</p>
               <ul>
-                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija I sanacija</li>
-                <li><strong>Godina izvođenja radova</strong> : 2016 I 2018.</li>
-                <li><strong>Naručilac</strong> : MZ Ribnica I Grad kraljevo Gradska Uprava</li>
-                <li><strong>Opis</strong> : Kompletna rekonstrukcija objekta po principu ključ u ruke</li>
+                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija i sanacija.</li>
+                <li><strong>Godina izvođenja radova</strong> : 2016 i 2018.</li>
+                <li><strong>Naručilac</strong> : MZ Ribnica i grad Kraljevo, Gradska uprava.</li>
+                <li><strong>Opis</strong> : Kompletna rekonstrukcija objekta po principu ključ u ruke.</li>
               </ul>
             </div>
             <div>
               <img src={skolaImg} onClick={() => setOpenSkola(true)} />
-              <p>ELEKTRO SAOBRAĆAJNA TEHNIČKA ŠKOLA "NIKOLA TESLA"</p>
+              <p style={{textTransform: "uppercase"}}>ESTŠ Nikola Tesla Kraljevo</p>
               <ul>
-                <li><strong>Vrsta radova</strong> : Energetska sanacija objekra</li>
+                <li><strong>Vrsta radova</strong> : Energetska sanacija objekta.</li>
                 <li><strong>Godina izvođenja radova</strong> : 2019.</li>
-                <li><strong>Naručilac</strong> : Grad Kraljevo – gradska uprava</li>
-                <li><strong>Opis</strong> : Objekat koji ističenmo sa ponosom- radovi su obuhvatili
+                <li><strong>Naručilac</strong> : Grad Kraljevo, Gradska uprava.</li>
+                <li><strong>Opis</strong> : Objekat koji ističemo sa ponosom. Radovi su obuhvatili
 izradu kompletne fasade od kamene vune, zamenu stolarije, automatizaciju instalacije
-grejanja , kao I kompletne limarske radove</li>
+grejanja , kao i kompletne limarske radove.</li>
               </ul>
             </div>
             <div>
               <img src={progorelicaImg} onClick={() => setOpenProgorelica(true)}/>
-              <p>DOM KULTURE PROGORELICA</p>
+              <p style={{textTransform: "uppercase"}}>DOM KULTURE PROGORELICA</p>
               <ul>
-                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija I sanacija</li>
-                <li><strong>Godina izvođenja radova</strong> : 2016 I 2018.</li>
-                <li><strong>Naručilac</strong> : MZ Ribnica I Grad kraljevo Gradska Uprava</li>
-                <li><strong>Opis</strong> : Kompletna rekonstrukcija objekta po principu ključ u ruke</li>
+                <li><strong>Vrsta radova</strong> :  Izgradnja novog objekta ( I i II faza ).</li>
+                <li><strong>Godina izvođenja radova</strong> : 2016 i 2018.</li>
+                <li><strong>Naručilac</strong> : Mz Progorelica i grad Kraljevo, Gradska uprava.</li>
+                <li><strong>Opis</strong> : Izgradnja novog modernog objekta sa specifičnom krovnom konstrukcijom - binderi.</li>
               </ul>
             </div>
             <div>
               <img src={bunariImg} onClick={() => setOpenBunari(true)} />
-              <p>KARAJUKIĆA BUNARI</p>
+              <p style={{textTransform: "uppercase"}}>Pošta Karajukića Bunari</p>
               <ul>
-                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija I sanacija objekta pošte</li>
+                <li><strong>Vrsta radova</strong> : Rekonstrukcija, adaptacija i sanacija objekta pošte.</li>
                 <li><strong>Godina izvođenja radova</strong> : 2018.</li>
-                <li><strong>Naručilac</strong> : JP POŠTA Srbije</li>
-                <li><strong>Opis</strong> : Za nas ne postoje nemoguće stavri- Od trošne brvnare sa
-kamenom I blatom do modernog objekta</li>
+                <li><strong>Naručilac</strong> : JP POŠTA Srbije.</li>
+                <li><strong>Opis</strong> : Za nas ne postoje nemoguće stavri. Od trošne brvnare sa
+kamenom i blatom do modernog objekta.</li>
               </ul>
             </div>
             

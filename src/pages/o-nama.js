@@ -20,7 +20,7 @@ const Onama = () => {
             {
               onama ? <div className="onama-content">
               <p>ARCHIDESIGN-ING doo Kraljevo, osnovano je početkom
-2016. godine, kao preduzeće registrivano za poslove 
+2016. godine, kao preduzeće registrovano za poslove 
 inžinjeringa i to pretežno na radovima vezanim za sanacije,
 rekonstrukcije i adaptacije objekata visokogradnje.
 Tokom svog postojanja poslovna delatnost preduzeća je
@@ -37,7 +37,7 @@ poslovanja pokazalo veliku dozu društvene odgovornosti.
 Menadzment i zaposleni su se rado odazvali na mnoge
 zajedničke humanitarne akcije, te je preduzeće pokazalo
 humanost darovanjem najboljih učenika za Svetosavske 
-proslave u više skola, izvođenjem radova koji nisu
+proslave u više škola, izvođenjem radova koji nisu
 fakturisani pre svge na školskim objektima, kako i
 učešcem u TV emisiji “Sa Tamarom u akciji”, na sta 
 smo posebno ponosni.</p>
