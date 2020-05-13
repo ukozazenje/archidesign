@@ -27,11 +27,11 @@ import Layout from '../components/layout'
 import Lightbox from 'react-image-lightbox'; // This only needs to be imported once in your app
 
 const trstenik = [
-  trstenik1, trstenik2, trstenik3, trstenik4
+  trstenik2, trstenik3, trstenik4
 ]
 
 const lovacki = [
-  lovacki1, lovacki2, lovacki3
+  lovacki2, lovacki3
 ]
 
 
