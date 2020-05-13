@@ -188,11 +188,22 @@ footer
 
 .sertificat-section 
   background: none
-  
+  display: block
+
+  .slick-next
+    top: 50%
+  .slick-prev 
+    top: 50%
+
   +tablet
     background: url("../images/sertificats.png")
     background-repeat: no-repeat
     background-size: cover
+    display: flex 
+    .slick-next
+      top: calc(50% - 140px)
+    .slick-prev 
+      top: calc(50% - 140px)
   .slide-wrapper
     img 
       max-width: 80%
@@ -279,10 +290,12 @@ footer
         line-height: 18px
         margin-bottom: 0 
         letter-spacing: 4px
-    .phone 
-      font-size: 1.625rem 
+    .phone
+      font-size: 1.125rem 
       font-weight: 100 
       color: #000000 
+      +tablet
+        font-size: 1.625rem 
 
   .map-responsive
     overflow: hidden
@@ -351,4 +364,50 @@ button
   background-repeat: no-repeat
   background-position: center center 
   +widescreen 
-    background: transparent
+    background: transparent 
+
+
+.news-section 
+  background: url("../images/galery.png")
+  background-position-y: -280px
+  background-size: auto
+  +tablet
+    background-position: center center
+    background-size: cover
+  .slick-slide 
+    // max-width: 500px
+    img 
+      margin-top: 0
+
+  .button 
+    color: #333 
+    border: 1px solid #707070
+    border-radius: 13px 
+    width: 100px
+    height: 30px 
+    background: #fff
+    font-size: 0.75rem
+    // align-self: left
+    margin: 0
+    margin-top: 30px
+  p 
+    margin: 20px 0 !important
+
+  +desktop 
+    .flex-wrapper 
+      display: flex 
+      flex-direction: column 
+      align-items: center 
+    p 
+      margin: 20px 0 !important
+      text-align: left
+      // display: inline-block
+      min-width: 494px
+    ul 
+      max-width: 494px
+      margin: 0 !important
+      min-height: 156px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      // display: inline-block
